@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import Posts from "../component/posts"
 class App extends Component{
-    constructor(){
-        super();
-    }
+    
     render(){
         return (
-            <h1>App component</h1>
+            <div className="ui container">
+                    <Posts/>
+            </div>
         )
     }
 };
